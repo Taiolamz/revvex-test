@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+  font-size: 16px;
+}
+
+:root {
+  --primary-color: #004bff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  box-shadow: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: var(--primary-color);
+}
+
+.menu-bar p {
+  color: #84919a;
+}
+
+.menu-bar .btn {
+  font-size: 16px;
+  background-color: var(--primary-color) !important;
+  transition: 0.3s ease-in;
+}
+.menu-bar .btn:hover {
+  transform: scale(1.02);
+}
+
+.menu-bar .trans-btn {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  transition: 0.3s ease-in;
+  background-color: #fff !important;
+}
+.menu-bar .trans-btn:hover {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+  transform: scale(1.02);
+}
+
+.menu-bar .nav-items {
+  position: relative;
+  margin-left: 40%;
+}
+
+.menu-bar .login-btn {
+  position: relative;
+  left: 38rem;
+  width: 8%;
+}
+
+.menu-bar .create-btn {
+  position: relative;
+  left: 41rem;
+  width: 15%;
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    overflow-x: hidden !important;
+  }
+}/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,21 @@
+.footer .link {
+  cursor: pointer;
+}
+.footer .link:hover {
+  color: var(--primary-color);
+}
+
+.nav-page {
+  color: var(--primary-color) !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer .company {
+    position: relative;
+    left: 5rem;
+  }
+  .footer .rights {
+    position: relative;
+    left: 5rem;
+  }
+}/*# sourceMappingURL=footer.css.map */

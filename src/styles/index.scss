@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+// @import '~bootstrap/scss/dropdown';
+
+:root {
+  --black-shade-color: #5b6871;
+  --box-shadow-one: 0.1rem 0.1rem 8rem 0.2rem rgba(0, 0, 0, 0.05);
+  --box-shadow-two: 0.1rem 0.1rem 8rem 0.2rem rgba(0, 0, 0, .07),
+    -0.1rem -0.1rem 8rem 0.2rem rgba(0, 0, 0, .07);
+  --white-color: #ffffff;
+  --black-color: #1d1d18;
+  --blue-color: #004bff;
+  --purple-gradient-color: linear-gradient(
+    135deg,
+    #3d5bf6 0%,
+    #8598f9 0.01%,
+    #2a2ea4 100%
+  );
+  --border-color: #DDE2E4;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  /* overflow-x: hidden !important; */
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  overscroll-behavior: none;
+  color: var(--black-shade-color);
+  overflow-x: hidden;
+  //   background-color: red;
+}
+
+
+// auto fill removal
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset !important;
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+
+
+// blur styles start--------------
+
+.blur-bg-wrap{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, .4);
+  z-index: 5000;
+
+  &>*{
+    position: absolute;
+    background-color: var(--white-color);
+    min-width: 30rem;
+    min-height: 30rem;
+    border-radius: 1rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  background-image: url("../assets/drop-down-icon.svg");
+  background-repeat: no-repeat; /* Add custom arrow */
+  background-position: 95% center;
+  background-size: 2rem;
+}
+
+/* landing-page */

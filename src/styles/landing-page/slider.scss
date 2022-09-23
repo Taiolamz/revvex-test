@@ -1,0 +1,57 @@
+.slider {
+  margin-left: 13rem;
+}
+
+.slider img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.slider-card {
+  width: 70%;
+  background-color: var(--primary-color);
+  color: white;
+  border-end-start-radius: 0px;
+  border-start-start-radius: 0px;
+}
+
+.slider-card p {
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+
+  .slider .smile-woman {
+    position: relative;
+    left: 12.5rem;
+    bottom: 3rem;
+    width: 40vh;
+  }
+  .slider .slider-card {
+    width:40vh;
+    position: relative;
+    height: 50vh;
+    top: 28.5rem;
+    right: 14.2rem;
+    border-radius: 0px !important
+  }
+
+  .slider .zojatech {
+    position: relative;
+    right: 3rem;
+    bottom: 3rem;
+  }
+.slider p {
+  width: 35vh;
+  position: relative;
+  right: 5rem;
+  bottom: 3rem;
+}
+ 
+
+}

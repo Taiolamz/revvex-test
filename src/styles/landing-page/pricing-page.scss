@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.pricing .pricing-card {
+  width: 28rem;
+  height: 40rem;
+  transition: 0.3s ease-out;
+  border-radius: 5px;
+  box-shadow: #95b5c9 0px 22px 70px 4px;
+
+  &:hover {
+    background-color: #2b8cf7;
+    color: #fff !important;
+    transform: scale(1.05);
+    p {
+      color: #ffffff;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+ .pricing .year-btn {
+  width: 50% !important;
+ }
+
+ .pricing .pricing-card{ 
+  margin-left: 3rem;
+ }
+ 
+ .pricing-offering {
+  margin-top: 18rem !important;
+  margin-left: 2.5rem;
+}
+
+.pricing-footer {
+  margin-left: 2rem
+}
+}

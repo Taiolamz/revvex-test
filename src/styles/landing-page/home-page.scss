@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.home-page h1 {
+  font-size: 54px;
+  font-weight: 800;
+}
+
+.try-btn {
+  width: 30%;
+}
+
+.home-page span {
+  color: var(--primary-color);
+  font-size: 12px;
+}
+
+.home-page h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.home-page h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.home-page h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.home-page .budget-card {
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.3s ease-out;
+  box-shadow: #95b5c9 0px 22px 70px 4px;
+
+  &:hover {
+    background-color: #2b8cf7;
+    color: #fff !important;
+    transform: scale(1.1);
+
+    p {
+      color: #fff;
+    }
+  }
+}
+
+.home-page .dashboard-img {
+  width: 80%;
+}
+
+.home-page .offering-card {
+  background-color: var(--primary-color);
+  max-width: 75%;
+  border-radius: 10px;
+  margin-left: 15rem;
+  padding: 7rem !important ;
+  position: inherit;
+  box-shadow: #95b5c9 0px 22px 70px 4px;
+  transition: 0.3s ease-in;
+}
+
+.home-page .offering-card h2 {
+  color: #fff;
+}
+.home-page .offering-input {
+  font-size: 16px;
+}
+
+.home-page .offering-input::placeholder {
+  font-size: 16px;
+}
+
+.home-page .sub-btn {
+  background-color: #2b8cf7 !important;
+}
+
+.home-page .ornament-img {
+  position: relative;
+  left: 20rem;
+  top: 12rem;
+}
+
+.home-page .ornament-2-img {
+  position: relative;
+  left: 88rem;
+  top: 40rem;
+}
+
+//  Mobile
+@media only screen and (max-width: 900px) {
+  .first-section img {
+    width: 50vh;
+    margin-top: 2rem;
+  }
+
+  .second-section .automate-text {
+    width: 50vh !important;
+    position: relative;
+    right: 3rem;
+  }
+
+  .third-section .dashboard-img {
+    width: 40vh;
+  }
+  .third-section h3 {
+    width: 40vh !important;
+  }
+  .third-section .financial-text {
+    width: 50vh !important;
+    position: relative;
+    right: 5rem;
+  }
+
+  .fourth-section img {
+    width: 50vh;
+  }
+
+  .fifth-section .card {
+    width: 45vh !important;
+    display: flex;
+    padding: 5px;
+  }
+
+  .fifth-section .feature-card {
+    margin-bottom: 2rem;
+  }
+
+  .offering-section {
+    width: 180vh;
+    position: relative;
+    right: 20rem;
+    margin-right: 10rem;
+  }
+
+  .offering-section .card {
+    width: 53vh !important;
+    height: 50vh;
+  }
+  .offering-section .offering-input {
+    width: 30vh !important;
+    height: 5vh !important;
+    padding: 20px !important;
+    position: relative;
+    right: 3rem;
+    bottom: 3rem;
+  }
+  .offering-input::placeholder {
+    font-size: 10px !important;
+  }
+
+  .offering-section .sub-btn {
+    position: relative;
+    top: 2rem;
+    padding: 2px !important;
+    right: 24rem;
+  }
+}

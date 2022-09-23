@@ -1,0 +1,30 @@
+.privacy-policy {
+  background-color: var(--primary-color);
+  width: 100%;
+  color: #fff;
+}
+
+.policy p {
+  font-size: 16px;
+  color: #84919a;
+}
+
+.policy h4 {
+  font-size: 24px;
+}
+
+.policy li {
+  color: #84919a;
+}
+
+@media only screen and (max-width: 900px) {
+  .privacy-policy {
+    width: 60vh;
+  }
+  .policy .mobile-privacy {
+    width: 45vh !important;
+  }
+  .privacy-footer {
+    margin-left: 2rem;
+  }
+}/*# sourceMappingURL=policy.css.map */
