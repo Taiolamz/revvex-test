@@ -14,7 +14,7 @@ const Privacy = () => {
         </Col>
       </Row>
       <Container className="mt-5 policy container-fluid ">
-        <div className="mobile-privacy">
+        <div className="privacy-content">
           {" "}
           <Row className="mt-4">
             <p className="mt-4">
@@ -182,7 +182,7 @@ const Privacy = () => {
           <br />
           <br />
         </div>
-        <div className="privacy-footer">
+        <div className="pricing-footer">
         <Footer />
         </div>
         <br />

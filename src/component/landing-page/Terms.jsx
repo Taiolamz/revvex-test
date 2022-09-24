@@ -858,7 +858,7 @@ const Terms = () => {
       <br />
 
       {/* footer */}
-      <div className="privacy-footer">
+      <div className="pricing-footer">
         <Footer />
         </div>
       <br />

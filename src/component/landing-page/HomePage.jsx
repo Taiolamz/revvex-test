@@ -52,7 +52,7 @@ const HomePage = () => {
             <Button className="try-btn mt-5">Try Now!</Button>
           </Col>
           <Col>
-            <img src={StockImg} alt="" />
+            <img src={StockImg} alt="stock_img" />
           </Col>
         </Row>
 

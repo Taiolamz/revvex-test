@@ -19,10 +19,10 @@
 
 @media only screen and (max-width: 900px) {
   .privacy-policy {
-    width: 60vh;
+    width: 50vh;
   }
-  .policy .mobile-privacy {
-    width: 45vh !important;
+  .policy .privacy-content {
+    width: 40vh !important;
   }
   .privacy-footer {
     margin-left: 2rem;

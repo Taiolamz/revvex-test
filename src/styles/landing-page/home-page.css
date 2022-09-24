@@ -97,11 +97,11 @@
 
 @media only screen and (max-width: 900px) {
   .first-section img {
-    width: 50vh;
-    margin-top: 2rem;
+    width: 40vh;
+    margin-top: 3rem;
   }
   .second-section .automate-text {
-    width: 50vh !important;
+    width: 40vh !important;
     position: relative;
     right: 3rem;
   }
@@ -110,39 +110,49 @@
   }
   .third-section h3 {
     width: 40vh !important;
+    position: relative;
+    right: 3rem;
+  }
+  .third-section span {
+    max-width: 50vh !important;
+    position: relative;
+    right: 3rem;
   }
   .third-section .financial-text {
-    width: 50vh !important;
+    width: 40vh !important;
     position: relative;
     right: 5rem;
   }
+  .fourth-section .btn {
+    margin-top: 2rem;
+  }
   .fourth-section img {
-    width: 50vh;
+    margin-top: 2rem;
+    width: 40vh;
   }
   .fifth-section .card {
-    width: 45vh !important;
+    width: 39vh !important;
     display: flex;
     padding: 5px;
   }
   .fifth-section .feature-card {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .offering-section {
-    width: 180vh;
+    width: 65vh;
     position: relative;
     right: 20rem;
-    margin-right: 10rem;
+    bottom: 5rem;
   }
   .offering-section .card {
     width: 53vh !important;
-    height: 50vh;
   }
   .offering-section .offering-input {
     width: 30vh !important;
     height: 5vh !important;
     padding: 20px !important;
     position: relative;
-    right: 3rem;
+    right: 5rem;
     bottom: 3rem;
   }
   .offering-input::-moz-placeholder {
@@ -158,6 +168,6 @@
     position: relative;
     top: 2rem;
     padding: 2px !important;
-    right: 24rem;
+    right: 31.5rem;
   }
 }/*# sourceMappingURL=home-page.css.map */

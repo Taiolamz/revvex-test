@@ -203,7 +203,7 @@ const Eula = () => {
         <br />
         <br />
         <br />
-        <div className="privacy-footer">
+        <div className="pricing-footer">
         <Footer />
         </div>
         <br />
