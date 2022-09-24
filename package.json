@@ -1,30 +1,19 @@
 {
   "engines": {
-    "node": "16.0.0"
+    "node": "18.0.0"
   },
   "name": "revvex",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "aos": "^2.3.4",
-    "moment": "^2.29.4",
-    "react": "^17.2.0",
-    "react-awesome-modal": "^2.0.5",
-    "react-bootstrap": "^2.5.0",
+    "@testing-library/react": "^13.4.0",
+    "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-flatpickr": "^3.10.13",
-    "react-icons": "^4.4.0",
-    "react-pin-field": "^3.0.16",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
-    "react-select": "^5.4.0",
     "reactstrap": "^9.1.4",
-    "scss": "^0.2.4",
-    "styled-components": "^5.3.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -51,9 +40,7 @@
     ]
   },
   "devDependencies": {
-    "bootstrap": "^5.2.0",
-    "node": "^18.8.0",
-    "sass": "^1.54.9",
-    "swiper": "^8.3.2"
+    "bootstrap": "^5.2.1",
+    "swiper": "^8.4.2"
   }
 }
