@@ -1,7 +1,5 @@
 {
-  "engines": {
-    "node": "16.0.0"
-  },
+
   "name": "revvex",
   "version": "0.1.0",
   "private": true,
