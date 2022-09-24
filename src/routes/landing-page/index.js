@@ -6,10 +6,10 @@ import Cookies from "../../component/landing-page/Cookies";
 import Eula from "../../component/landing-page/Eula";
 
 export const LandingPage_route_group = [
-  { path: "/", component: HomePage },
-  { path: "/pricing", component: Pricing },
-  { path: "/privacy-policy", component: Privacy },
-  { path: "/terms-of-service", component: Terms },
-  {path:"/cookies-policy", component: Cookies},
-  {path:"/eula", component: Eula }
+  { path: "/", element: <HomePage /> },
+  { path: "/pricing", element: <Pricing /> },
+  { path: "/privacy-policy", element: <Privacy /> },
+  { path: "/terms-of-service", element: <Terms /> },
+  { path: "/cookies-policy", element: <Cookies /> },
+  { path: "/eula", element: <Eula /> },
 ];

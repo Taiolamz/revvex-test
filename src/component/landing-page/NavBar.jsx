@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../styles/landing-page/nav.css";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   Nav,
   Container,
@@ -15,7 +15,7 @@ import {
 import RevvexLogo from "../../assets/revvex-logo.svg";
 
 const MenuBar = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
@@ -45,7 +45,7 @@ const MenuBar = () => {
                   className={`link nav-page${
                     window.location.pathname === "/pricing" ? "" : "nav-page"
                   }`}
-                  onClick={() => history.push("/pricing")}
+                  onClick={() => navigate("/pricing")}
                   href="/pricing"
                 >
                   Pricing

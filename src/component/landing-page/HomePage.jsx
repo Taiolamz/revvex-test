@@ -8,7 +8,6 @@ import {
   Card,
   CardTitle,
   CardBody,
-  Input,
 } from "reactstrap";
 import "../../styles/landing-page/home-page.scss";
 // import "../../styles/landing-page/nav.css";

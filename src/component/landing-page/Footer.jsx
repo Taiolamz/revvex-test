@@ -1,11 +1,12 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import RevvexLogo from "../../assets/revvex-logo.svg";
 import "../../styles/landing-page/footer.scss";
 
 const Footer = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -40,7 +41,7 @@ const Footer = () => {
           <Col className="company">
             <h4 className="mb-4">Company</h4>
             <p 
-              onClick={() => history.push("/privacy-policy")}
+              onClick={() => navigate("/privacy-policy")}
               className={`link nav-page${
                 window.location.pathname === "/privacy-policy" ? "" : "nav-page"
               }`}
@@ -48,7 +49,7 @@ const Footer = () => {
               Privacy Policy
             </p>
             <p
-              onClick={() => history.push("/terms-of-service")}
+              onClick={() => navigate("/terms-of-service")}
               className={`link nav-page${
                 window.location.pathname === "/terms-of-service"
                   ? ""
@@ -58,7 +59,7 @@ const Footer = () => {
               Terms of Service
             </p>
             <p
-              onClick={() => history.push("/cookies-policy")}
+              onClick={() => navigate("/cookies-policy")}
               className={`link nav-page${
                 window.location.pathname === "/cookies-policy" ? "" : "nav-page"
               }`}
@@ -66,7 +67,7 @@ const Footer = () => {
               Cookies Policy
             </p>
             <p
-              onClick={() => history.push("/eula")}
+              onClick={() => navigate("/eula")}
               className={`link nav-page${
                 window.location.pathname === "/eula" ? "" : "nav-page"
               }`}

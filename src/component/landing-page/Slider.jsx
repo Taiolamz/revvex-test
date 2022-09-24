@@ -1,35 +1,36 @@
 import React from "react";
-import { Container, Row, Col, Card, CardBody } from "reactstrap";
+import { Container, Row, Col, Card } from "reactstrap";
 import "../../styles/landing-page/slider.scss";
 import SmileWoman from "../../assets/smile-woman-img.svg";
 import BudgetIcon from "../../assets/budgeting-icon.svg";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { Swiper } from "swiper/react";
+// SwiperSlide
+// import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import "swiper/css";
 // import "swiper/css/navigation";
 // import "swiper/css/pagination";
 
 const Slider = () => {
-  const data = [
-    {
-      id: 1,
-      company_name: "ZOJAPAY",
-      testimonial:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem iste saepe, eos optio illum eum minus provident aliquid. Veritatis sed est accusamus repudiandae libero itaque, sit dolorum perferendis neque!",
-    },
-    {
-      id: 2,
-      company_name: "ZOJATECH",
-      testimonial:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem iste saepe, eos optio illum eum minus provident aliquid. Veritatis sed est accusamus repudiandae libero itaque, sit dolorum perferendis neque!",
-    },
-    {
-      id: 3,
-      company_name: "ITHORIZON",
-      testimonial:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem iste saepe, eos optio illum eum minus provident aliquid. Veritatis sed est accusamus repudiandae libero itaque, sit dolorum perferendis neque!",
-    },
-  ];
+  // const data = [
+  //   {
+  //     id: 1,
+  //     company_name: "ZOJAPAY",
+  //     testimonial:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem iste saepe, eos optio illum eum minus provident aliquid. Veritatis sed est accusamus repudiandae libero itaque, sit dolorum perferendis neque!",
+  //   },
+  //   {
+  //     id: 2,
+  //     company_name: "ZOJATECH",
+  //     testimonial:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem iste saepe, eos optio illum eum minus provident aliquid. Veritatis sed est accusamus repudiandae libero itaque, sit dolorum perferendis neque!",
+  //   },
+  //   {
+  //     id: 3,
+  //     company_name: "ITHORIZON",
+  //     testimonial:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem iste saepe, eos optio illum eum minus provident aliquid. Veritatis sed est accusamus repudiandae libero itaque, sit dolorum perferendis neque!",
+  //   },
+  // ];
   return (
     <div>
       <Container className="mt-5 slider">
@@ -44,7 +45,7 @@ const Slider = () => {
             <Card className="slider-card">
                 <div className="mx-5 p-5 mt-5">
                   <div className="d-flex mx-5 zojatech">
-                    <img src={BudgetIcon} />
+                    <img src={BudgetIcon} alt='budget_icon' />
                     <h5 className="mx-3 mt-2 ">ZOJATECH</h5>
                   </div>
                   <p className="mx-5 mt-4">
