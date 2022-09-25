@@ -17,7 +17,7 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
  .pricing .year-btn {
   width: 50% !important;
  }
@@ -32,6 +32,6 @@
 }
 
 .pricing-footer {
-  margin-left: 2.5rem
+  margin-left: 4rem
 }
 }

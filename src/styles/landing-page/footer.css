@@ -9,13 +9,12 @@
   color: var(--primary-color) !important;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .footer .company {
-    position: relative;
-    left: 5rem;
+    margin-right: -9rem;
   }
   .footer .rights {
     position: relative;
-    left: 5rem;
+    left: 6rem;
   }
 }/*# sourceMappingURL=footer.css.map */

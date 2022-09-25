@@ -23,7 +23,6 @@ import RevenueIcon from "../../assets/revenue-icon.svg";
 import Footer from "./Footer";
 import Offerings from "./Offerings";
 
-
 const HomePage = () => {
   return (
     <div>
@@ -75,8 +74,7 @@ const HomePage = () => {
             <br />
             <br />
             <div className="d-flex automate-text">
-              <img src={CheckboxIcon} alt="check_box" />
-              {" "}
+              <img src={CheckboxIcon} alt="check_box" />{" "}
               <p className="mx-4">
                 Automate everything! From budget entry to approval to
                 <br /> expense control
@@ -275,9 +273,9 @@ const HomePage = () => {
         </Row>
 
         <br />
-
-
-        <Offerings/>
+    
+          <Offerings />
+  
 
         <br />
         <br />

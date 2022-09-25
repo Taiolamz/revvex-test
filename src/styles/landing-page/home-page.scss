@@ -88,11 +88,16 @@
 }
 
 //  Mobile
-@media only screen and (max-width: 900px) {
-
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+body {
+  overflow: hidden;
+  max-width: 500vh;
+}
   .first-section img {
-    width: 40vh;
+    width: 45vh;
     margin-top: 3rem;
+    position: relative;
+    right: 2rem;
   }
 
   .second-section .automate-text {
@@ -119,6 +124,14 @@
     width: 40vh !important;
     position: relative;
     right: 5rem;
+  }
+  .fourth-section {
+   position: relative;
+   bottom: 5rem;
+
+   h2 {
+    width: 40vh;
+   }
   }
 
   .fourth-section .btn {
@@ -156,7 +169,7 @@
     height: 5vh !important;
     padding: 20px !important;
     position: relative;
-    right: 5rem;
+    right: 3.5rem;
     bottom: 3rem;
   }
   .offering-input::placeholder {
@@ -167,6 +180,8 @@
     position: relative;
     top: 2rem;
     padding: 2px !important;
-    right: 31.5rem;
+    width: 40% !important;
+    right: 23.5rem;
   }
+
 }

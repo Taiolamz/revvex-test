@@ -17,7 +17,7 @@
   color: #84919a;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .privacy-policy {
     width: 50vh;
   }

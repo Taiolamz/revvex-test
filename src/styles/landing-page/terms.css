@@ -20,4 +20,10 @@
 .terms .lists {
   font-weight: 500;
   color: #1d1d18;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .terms-service {
+    width: 50vh;
+  }
 }/*# sourceMappingURL=terms.css.map */

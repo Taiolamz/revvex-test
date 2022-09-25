@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import MenuBar from "./NavBar";
 import "../../styles/landing-page/terms.scss";
